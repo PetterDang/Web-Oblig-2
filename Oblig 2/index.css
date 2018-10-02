@@ -64,7 +64,7 @@
   padding: 5%;
 }
 
-.container-skisse {
+.container-2 {
   background-image: url("bilder/star.gif");
   background-repeat: repeat;
   background-color: #d8d8e1;
@@ -81,6 +81,7 @@
   padding: 5%;
 }
 
+ /* main */
 .item-a {
   grid-area: main;
   border: 1px solid grey;
@@ -148,6 +149,7 @@ a {
   text-align: center;
   text-decoration: none;
   padding: 10px;
+  min-width: 600px;
 }
 
 /* side */
@@ -157,4 +159,8 @@ a {
   text-align: center;
   text-decoration: none;
   padding: 10px;
+}
+
+figcaption a{
+  text-decoration: underline;
 }
