@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="print.css" />
     <title>Webutvkiling oblig 2</title>
 </head>
 <body>
@@ -21,13 +22,28 @@
 
     <main class="container-2">
           <article class="item-a-skisse">
-                      <h2>Hjem / Index</h2>
-                      <p><img src="bilder/skisse.jpg" alt="skisse" height="500" width="500"></p>
+                      <h2 class="container-2-h2">CSS Layouts</h2>
+                      <p class="container-2-p">Det er mange forskjellige metoder for layouts i CSS for eksempel ved bruk av CSS Flexbox eller CSS Grid. Det er også andre metoder for å strukturere layouts i CSS
+                         som for eksempel table layout, floats og posisjonering.
+                         <br><br>
+                         Med Flex kan innholdet bli omformet etter enheten som blir brukt. Dette betyr at ved bruk av flex blir siden justert etter skjerments størrelse.
+                         Innholdet i flex flytter seg automatisk basert på hvor mye plass det er på skjermen. Innholdet vil heller ikke legge seg oppe på hverandre men
+                         heller legge seg under hverandre for å få plass.
+                         <br><br>
+                         Med Grid blir siden delt inn i rader og kolonner. Du kan selv velge selv hvor mange kolonner og rader det er. Fra her kan du velge størrelse på
+                         boksene og mellomrom mellom dem. Boksene blir delt inn i tema som danner en vanlig side struktur.
+                         <br><br>
+                         Det er mulig å kombinere flex og grid sammen. Dette tillater brukeren til å bruke de beste egenskapene fra funksjonene som grid og flex tilbyr.
+                         Det er mange måter å strukturere en webside på. Den mest vanlige måten å strukturere en webside er ved å dele dem inn i "header", "meny", "innhold" og "footer"
+                      </p>
           </article>
           <aside>
                   <section class="item-b-skisse">
-                            <h2>Andre</h2>
-                                <p><img src="bilder/skisse2.jpg" alt="skisse" height="500" width="500"></p>
+                            <h2>Grid og Flex</h2>
+                                <p><img src="bilder/grid.webp" alt="skisse" height="auto" width="600"></p>
+                                <figcaption>CSS Grid Layout</a></figcaption>
+                                <p><img src="bilder/flex.png" alt="skisse" height="auto" width="600"></p>
+                                <figcaption>CSS Flex Layout</a></figcaption>
           </aside>
     </main>
     <footer class=item-c>
