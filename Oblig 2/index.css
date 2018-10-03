@@ -172,3 +172,17 @@ a {
 figcaption a{
   text-decoration: underline;
 }
+
+.item-b #pp{
+    padding: 5px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    border: 15px;
+}
+
+.item-b #pp:hover{
+  background-color: #DA70D6;
+  color:black
+}
