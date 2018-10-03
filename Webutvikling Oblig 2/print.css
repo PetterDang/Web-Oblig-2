@@ -1,0 +1,15 @@
+body{
+    width: 100%
+}
+
+nav{
+    display: none;
+}
+
+iframe {
+  display: none;
+}
+a{
+    display: block;
+    color: black;
+}
